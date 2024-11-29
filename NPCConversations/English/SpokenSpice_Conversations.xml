@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Conversations identifier="spokenspiceconversations" Language="English">
+
+  <!-- Initial -->
+
+  <Conversation line="Buckle down, everyone. Next stop: the cold and dark depths of Europe." speaker="0" flags="Initial" allowedjobs="captain">
+    <Conversation line="Don't you mean Europa?" speaker="1">
+      <Conversation line="Same difference." speaker="0"/>
+    </Conversation>
+  </Conversation>
+
+  <Conversation line="Born of the dust..." speaker="0" flags="Initial" allowedjobs="captain">
+    <Conversation line="Forged by the magma..." speaker="0">
+      <Conversation line="Tempered by the frost." speaker="0">
+        <Conversation line="Godspeed, team. It's time to set sail." speaker="0"/>
+        <Conversation line="" speaker="0"/>
+        <Conversation line="And broken by the monsters." speaker="1">
+          <Conversation line="Offering to be next on the menu?" speaker="0"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+
+  <!-- Casual -->
+
+  <Conversation line="What's the deal with shuttle food?" speaker="0" maxintensity="0.2">
+    <Conversation line="" speaker="0"/>
+    <Conversation line="Heard it has something to do with pressurization." speaker="1"/>
+  </Conversation>
+  
+  <Conversation line="I'm starving..." speaker="0" allowedjobs="assistant" maxintensity="0.4">
+    <Conversation line="I wonder what crawler eggs taste like." speaker="0"/>
+    <Conversation line="I wonder what mudraptor eggs taste like." speaker="0"/>
+    <Conversation line="I wonder what hammerhead ribs taste like." speaker="0"/>
+    <Conversation line="I wonder what thresher liver tastes like." speaker="0"/>
+    <Conversation line="I wonder what spineling marrow tastes like." speaker="0"/>
+    <Conversation line="I wonder what mantis tail tastes like." speaker="0"/>
+    <Conversation line="I wonder what thalamus flesh tastes like." speaker="0"/>
+    <Conversation line="I wonder what moloch marrow tastes like." speaker="0"/>
+  </Conversation>
+
+  <Conversation line="Do you think mermaids exist?" speaker="0" maxintensity="0.2">
+    <Conversation line="The depths would never bless us with such a beautiful thing." speaker="1">
+      <Conversation line="You're depressing." speaker="0"/>
+    </Conversation>
+    <Conversation line="Would be a nice change of pace. Something that doesn't want to kill us, for once." speaker="1"/>
+    <Conversation line="Could sure use some eye candy between the hailstorms of monster gore." speaker="1">
+      <Conversation line="Gross..." speaker="2" speakertags="fearful,professional"/>
+    </Conversation>
+  </Conversation>
+
+  <Conversation line="I hear that sub racing is back in fashion." speaker="0" maxintensity="0.2" allowedjobs="engineer,mechanic,security,assistant,medical">
+    <Conversation line="" speaker="0"/>
+    <Conversation line="Wasn't it just the one event?" speaker="1">
+      <Conversation line="One event, but the numbers didn't lie. Scratched an itch that the public hasn't had scratched in a while." speaker="0">
+        <Conversation line="Was all fun and games until the Latcher showed up. If you want to risk that for a hobby, be my guest." speaker="2" speakertags="rude,professional"/>
+        <Conversation line="Overrated, if you ask me." speaker="2"/>
+        <Conversation line="Maybe we oughta join sometime. Win a few marks, get a break from the gloom." speaker="2"/>
+      </Conversation>
+      <Conversation line="I think it has potential." speaker="2">
+        <Conversation line="Just don't ask me to pilot... This girl's been banged around enough already." speaker="3" allowedjobs="captain">
+          <Conversation line="That's what she said!" speaker="4" speakertags="joker,crazy"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+
+  <Conversation line="You ever heard of percussive maintenance?" speaker="0" allowedjobs="mechanic" maxintensity="0.4">
+    <Conversation line="Tried it on a junction box, once. Woke up on the floor with a bad concussion." speaker="1" allowedjobs="engineer">
+      <Conversation line="Skill issue." speaker="2" speakertags="rude,joker"/>
+    </Conversation>
+    <Conversation line="Doesn't make the boat go any faster, unfortunately." speaker="1" allowedjobs="captain"/>
+    <Conversation line="Sure wish I could whack you lot into shape sometimes." speaker="1" allowedjobs="medical">
+      <Conversation line="Ain't that what CPR is?" speaker="2"/>
+    </Conversation>
+    <Conversation line="We have a word for that: violence." speaker="1" allowedjobs="security"/>
+  </Conversation>
+
+  <Conversation line="Hear me out..." speaker="0" speakertags="laid-back,joker,crazy" maxintensity="0.5">
+    <Conversation line="In terms of compatibility, humans and Mudr-" speaker="0">
+      <Conversation line="-----? -- -------." speaker="0">
+        <Conversation line="You can't just turn off my radio! Dick." speaker="0"/>
+      </Conversation>
+      <Conversation line="No. Absolutely not." speaker="1"/>
+      <Conversation line="Oh, you're just begging for the airlock now." speaker="1" speakertags="rude"/>
+      <Conversation line="You're not covering my ship in monster jizz." speaker="1" allowedjobs="captain"/>
+    </Conversation>
+    <Conversation line="Not this again, please." speaker="1">
+      <Conversation line="" speaker="0"/>
+      <Conversation line="You can't silence the truth forever!" speaker="0" maxintensity="0.2">
+        <Conversation line="The thing's beak begs to differ." speaker="1"/>
+        <Conversation line="I can. Now shut it." speaker="2" speakertags="professional,tough"/>
+      </Conversation>
+    </Conversation>
+    <Conversation line="No, you can't fuck the fish. Shut up." speaker="1" speakertags="rude"/>
+  </Conversation>
+
+  <Conversation line="&quot;We all live in a yellow submarine...&quot;" speaker="0" maxintensity="0.3">
+    <Conversation line="&quot;Yellow submarine, yellow submarine.&quot;" speaker="1">
+      <Conversation line="We didn't get a new paintjob, did we?" speaker="2" speakertags="joker,crazy"/>
+      <Conversation line="Doesn't look terribly yellow to me." speaker="2" speakertags="rude"/>
+      <Conversation line="" speaker="0"/>
+    </Conversation>
+    <Conversation line="" speaker="0"/>
+  </Conversation>
+
+  <Conversation line="Favorite sub, anyone?" speaker="0" maxintensity="0.3">
+    <Conversation line="Alright, hot take... the Barsuk." speaker="1">
+      <Conversation line="Didn't take you as one to pilot a pile of scrap." speaker="2">
+        <Conversation line="Name another sub that just comes with a pulse laser." speaker="1">
+          <Conversation line="Good luck actually getting it anywhere, though." speaker="2"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Beginner choice, but the Dugong holds its own." speaker="1">
+      <Conversation line="Doesn't that one not even have a forward gun?" speaker="2">
+        <Conversation line="Well... yeah. It's a budget ship. But that simplicity is its strength, if you ask me." speaker="1">
+          <Conversation line="Just don't come running when the hull pops like a balloon." speaker="2"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Silky smooth and to the point? That'll be the Orca." speaker="1" allowedjobs="captain,medical">
+      <Conversation line="It's a great one... when it actually works." speaker="2">
+        <Conversation line="Why does the thing need so much damn power?" speaker="2">
+          <Conversation line="It doesn't need a lot to get the job done. Any mishaps are on the captain, not the sub." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Ol' reliable. Referring to the Camel, of course." speaker="1" allowedjobs="engineer,mechanic">
+      <Conversation line="Famously unable to defend its center line, I remember now." speaker="2">
+        <Conversation line="At least the chaingun puts in all the work you need. Great power management, too." speaker="1">
+          <Conversation line="Maneuverability could use some work, though." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Is that even a question? The Humpback, for sure." speaker="1" allowedjobs="security,assistant">
+      <Conversation line="I'm surprised those are even in production. How does anyone stand them?" speaker="2">
+        <Conversation line="They're reliable is why. Temperamental, sure, but that beefy bottom turret makes for good 'kick em while they're down' material." speaker="1">
+          <Conversation line="I've run into a few enemy Humpbacks before. You don't mess with those things, man." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Only thing better than one Orca... is two Orcas. Or the Orca 2." speaker="1" allowedjobs="captain,medical">
+      <Conversation line="I don't know what to tell you. It's simply better." speaker="1">
+        <Conversation line="It trades its downsides for simply being unimpressive in comparison. Why not get any other sub?" speaker="2">
+          <Conversation line="Because it's really good at getting where it needs to go." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="I travel in style. Azimuth life for me." speaker="1" allowedjobs="captain,medical">
+      <Conversation line="Great agility, great flood handling, great looks... what's not to like?" speaker="1">
+        <Conversation line="Its lack of overhead coverage, for one." speaker="2">
+          <Conversation line="What do you do when a thresher's chowing down on your ceiling?" speaker="2"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="The harbinger of destruction - the one and only Typhon." speaker="1" allowedjobs="security,assistant">
+      <Conversation line="Might take it a few years to bring that destruction, though." speaker="2">
+        <Conversation line="Doesn't matter. No matter where you go, you can never truly escape it." speaker="1">
+          <Conversation line="Cornering something with overwhelming firepower never gets old." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="It's a weird one, but the Herja's actually kinda nice." speaker="1" allowedjobs="security,assistant">
+      <Conversation line="That type of gun coverage with only three guns is to die for." speaker="1">
+        <Conversation line="Good luck dealing with boarding parties, though. That oughta suck." speaker="2">
+          <Conversation line="That top railgun begs to differ." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Big operations require Big Rigs." speaker="1" allowedjobs="engineer,mechanic">
+      <Conversation line="And even bigger blind spots. What sub doesn't come with a bottom gun?" speaker="2">
+        <Conversation line="One that has two discharge coils and a healthy battery capacity." speaker="1">
+          <Conversation line="Slap a gun down there, and she's a mighty beast." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Sit down and make way for the queen of all subs; you know the one." speaker="1"  allowedjobs="engineer,mechanic">
+      <Conversation line="The Berilia might be hungry, but she's a powerhouse that demands respect." speaker="1">
+        <Conversation line="Hard to respect a gigantic target with insane crew requirements." speaker="2">
+          <Conversation line="Come back to me when you've successfully fought one of those things. Even while she's down, she just keeps kicking." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Remora, final answer. Agile and flexible are just my style." speaker="1" allowedjobs="captain,medical">
+      <Conversation line="Don't you find the interior super awkward? Everything's all over the place." speaker="2">
+        <Conversation line="It's manageable, that's all I can really say. Plus, that drone is nothing to scoff at." speaker="1">
+          <Conversation line="Helps with covering the undefended underside until you can get some extra firepower. Then you have yourself a free mobile gun." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="You know, the Typhon was so good that they actually made a second one." speaker="1" allowedjobs="security,assistant">
+      <Conversation line="Most guns out of any sub, and electric defenses just for good measure." speaker="1">
+        <Conversation line="Still not much better in the speed department, though. Can't really shoot things if you can't catch em." speaker="2">
+          <Conversation line="Just make sure they can't run away in the first place." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="Say what you want, the Kastrull does work." speaker="1" allowedjobs="security,assistant">
+      <Conversation line="Unless you poke a hole in it, that is." speaker="2">
+        <Conversation line="I'd like to see anything try. This thing has so many weapons it's not even funny." speaker="1">
+          <Conversation line="Oh, and its drone with a frontal gun, too. A little extra overkill, as a treat." speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+    <Conversation line="I feel like it goes without saying; the Winterhalter is in a class of its own." speaker="1" allowedjobs="captain,medical">
+      <Conversation line="You'd be correct if you meant that in terms of energy demands." speaker="2">
+        <Conversation line="It tries to be everything, and fails to be practical." speaker="2">
+          <Conversation line="What's that thing people say? Master of none, but sometimes better than a master of one?" speaker="1"/>
+        </Conversation>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+
+  <!-- Intensity -->
+
+  <Conversation line="I'd rather take stormy seas than... whatever the fuck this is." speaker="0" minintensity="0.5">
+    <Conversation line="" speaker="0"/>
+    <Conversation line="But our hand is dealt. Play it!" speaker="1" speakertags="professional,tough" minintensity="0.6"/>
+    <Conversation line="Shit sucks! Can you focus now?" speaker="1" speakertags="rude" minintensity="0.6"/>
+  </Conversation>
+
+  <Conversation line="There's some saying about the Abyss's gaze, isn't there?" speaker="0" minintensity="0.3">
+    <Conversation line="Whatever it is, I'm starting to feel like it really is watching us..." speaker="0"/>
+    <Conversation line="Gaze into the Abyss, and it'll gaze back into you. That's what they say, at least." speaker="1">
+      <Conversation line="" speaker="0"/>
+      <Conversation line="I'm certainly not inclined to disagree right now." speaker="0"/>
+      <Conversation line="I can't help but wonder if we've gazed too deep." speaker="0"/>
+      <Conversation line="Its gaze is cold. So... so cold." speaker="2" speakertags="fearful"/>
+      <Conversation line="...We're fucked, aren't we?" speaker="0" minintensity="0.7">
+        <Conversation line="" speaker="0"/>
+        <Conversation line="Not if I shoot its beady eye out first." speaker="3" allowedjobs="security"/>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+
+  <Conversation line="Oh shit." speaker="0" minintensity="0.4">
+    <Conversation line="Oh, god." speaker="0" minintensity="0.6">
+      <Conversation line="Oh jeez, oh fuck!" speaker="0" minintensity="0.8"/>
+    </Conversation>
+  </Conversation>
+
+  <Conversation line="Really wish we'd picked up that upgrade back there!" speaker="0" minintensity="0.5"/>
+
+  <Conversation line="I don't suppose we have a mini nuke in the cabinet?" speaker="0" minintensity="0.7"/>
+
+  <Conversation line="You'll never take me alive!" speaker="0" minintensity="0.5">
+    <Conversation line="Might take you dead, though!" speaker="1" speakertags="rude,fearful,joker"/>
+  </Conversation>
+
+</Conversations>
