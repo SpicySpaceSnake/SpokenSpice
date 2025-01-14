@@ -1,4 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Spicetrauma:Spice for the Spoken" modversion="1.0.0" corepackage="False" gameversion="1.4.6.0">
-  <NPCConversations file="%ModDir%/NPCConversations/English/SpokenSpice_Conversations.xml"/>
+<contentpackage name="Spicetrauma:Variety for the Spoken" modversion="1.0.0" corepackage="False" gameversion="1.4.6.0">
+  <NPCConversations file="%ModDir%/NPCConversations/English/NPCConversations_English_SpokenSpice.xml"/>
 </contentpackage>
