@@ -1,0 +1,52 @@
+[h1]Spicetrauma:Variety for the Spoken[/h1]
+is a simple mod that adds a healthy handful of NPC conversations, mostly expanding the variety of casual banter while trying to stick to the game's general vibe.
+
+[hr][/hr]
+[h2]What exactly does this mod do?[/h2]
+As of its most recent update, it adds:
+[list]
+[*]2 mission-start conversations
+[*]8 casual conversations
+[*]3 high-intensity one-liners
+[*]3 high-intensity conversations
+[/list]
+
+Like other conversation mods, this overrides nothing, merely adding to the pool that NPCs can choose from with existing tags. To keep it lightweight and vanilla-friendly, it also adds no new personality types, though I might make a supplementary mod that does in the future.
+
+Comes in both English and Latin-American Spanish, because those are the languages I speak. Offers to help translate into other languages are greatly appreciated!
+
+[h3]All of my mods are open-source![/h3]
+Check out the [url=https://github.com/SpicySpaceSnake/SpokenSpice]GitHub repo[/url] to sift through its files and customize your features, or even to contribute to it yourself.
+
+[hr][/hr]
+[h2]Is this mod compatible with X?[/h2]
+This is a relatively unintrusive mod that shouldn't break anything by itself. It can be added or removed during a campaign at any time without issue.
+As the changes are entirely additive rather than replacing, it also shouldn't conflict with or be overriden by other mods.
+
+[b]Found a bug? Leave a comment or start a discussion![/b]
+
+[hr][/hr]
+[h2]Can you add cross-mod support for X?[/h2]
+How would you do this for a conversation mod?
+
+I suppose if you'd like additional conversations that are relevant to a specific mod, consider reaching out to ask. It'll likely take the form of a supplementary compat mod.
+
+[hr][/hr]
+[h2]How often does this mod update?[/h2]
+As this is a very small mod, there's not much to do except keep on the lookout for bugs and cross-mod support opportunities. As such, it will only get updated when needed.
+
+[b]CURRENT FOCUS:[/b] none
+[b]CURRENT STATUS:[/b] being passively maintained
+
+[hr][/hr]
+[h2]Credits go to[/h2]
+[*][b]SpicySpaceSnake[/b] ([url=https://spicyspacesnake.carrd.co/]that's me![/url]): programming, English and LA Spanish translations
+[h3]And a special thanks to[/h3]
+[list]
+[*][b]Kira[/b], for buying me Barotrauma and getting me into it in the first place
+[*][b]My partners[/b], for being a bunch of absolutely amazing people
+
+[*]and [b]YOU[/b], for taking the time to check out this mod!
+[/list]
+
+Please be sure to rate on your way out, and share this with anyone you think might like it. Happy Barotrauming!
