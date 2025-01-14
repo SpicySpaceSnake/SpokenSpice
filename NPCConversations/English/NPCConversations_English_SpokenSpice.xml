@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Conversations identifier="spokenspiceconversations" Language="English">
-
   <!-- Initial -->
 
   <Conversation line="Buckle down, everyone. Next stop: the cold and dark depths of Europe." speaker="0" flags="Initial" allowedjobs="captain">
@@ -247,5 +246,4 @@
   <Conversation line="You'll never take me alive!" speaker="0" minintensity="0.5">
     <Conversation line="Might take you dead, though!" speaker="1" speakertags="rude,fearful,joker"/>
   </Conversation>
-
 </Conversations>
