@@ -1,4 +1,4 @@
-[h1]Spicetrauma:Variety for the Spoken[/h1]
+[h1]Spicetrauma:Variety for the Spoken 1.0.0[/h1]
 is a simple mod that adds a healthy handful of NPC conversations, mostly expanding the variety of casual banter while trying to stick to the game's general vibe.
 
 [hr][/hr]
