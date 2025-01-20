@@ -40,7 +40,9 @@ As this is a very small mod, there's not much to do except keep on the lookout f
 
 [hr][/hr]
 [h2]Credits go to[/h2]
+[list]
 [*][b]SpicySpaceSnake[/b] ([url=https://spicyspacesnake.carrd.co/]that's me![/url]): programming, English and LA Spanish translations
+[/list]
 [h3]And a special thanks to[/h3]
 [list]
 [*][b]Kira[/b], for buying me Barotrauma and getting me into it in the first place
